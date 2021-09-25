@@ -5,7 +5,7 @@
     "description": "Installs Slack using the Chocolatey package manager",
     "tags": [
         "Windows",
-        "Slack"
+        "Slack-cal"
     ],
     "iconUri": "https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack_hash_colored.svg",
     "targetOsType": "Windows",
