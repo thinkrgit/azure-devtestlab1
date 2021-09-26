@@ -8,7 +8,7 @@
     "anaconda3",
     "python3"
   ],
-  "iconUri": "https://github.com/thinkrgit/azure-devtestlab1/new/master/Artifacts/windows-anaconda3/anaconda3.png",
+  "iconUri": "https://github.com/thinkrgit/azure-devtestlab1/blob/master/Artifacts/windows-anaconda3/ananconda3.png",
   "targetOsType": "Windows",
   "runCommand": {
     "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'anaconda3', '\"')]"
