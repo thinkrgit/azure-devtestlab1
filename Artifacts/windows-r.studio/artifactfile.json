@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+  "title": "r.stdio",
+  "publisher": "cal",
+  "description": "Installs r.studio using the Chocolatey package manager",
+  "tags": [
+    "Windows",
+    "r.studio"
+    
+  ],
+  "iconUri": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/Artifacts/windows-r.studio/r.studiopng",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'r.studio', '\"')]"
+  }
+}
