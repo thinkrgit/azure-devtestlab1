@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-  "title": "c",
+  "title": "anaconda3",
   "publisher": "cal",
   "description": "Installs anaconda w python3 using the Chocolatey package manager",
   "tags": [
